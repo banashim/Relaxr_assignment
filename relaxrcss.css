@@ -1,0 +1,134 @@
+body {
+	font-size: 22px;
+	font-family: 'Open Sans';
+	background: url(header_bg.jpg) no-repeat center top;
+	background-color: #131e27;
+}
+
+header {
+	border: 1px none;
+	font-family: 'Open Sans';
+	color: white;
+	font-size: 24px;
+	padding: 10px 100px;
+	height: 670px;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 48px;
+	margin-left: 130px;
+}
+
+h2 {
+	font-size: 48px;
+	font-weight: 600;
+	text-align: center;
+}
+
+h3 {
+	font-size: 32px;
+	font-weight: 600;
+	margin-left: 120px;
+
+}
+
+h4 {
+	color: #f9e42e;
+	font-size: 46px;
+	font-weight: 800;
+}
+
+h5 {
+	color: #121212;
+}
+
+blockquote {
+	font-size: 28px;
+	font-style: italic;
+	font-weight: 300;
+	width: 450px;
+	margin-left: 32%;
+}
+
+ul {
+	font-size: 24px;
+	font-weight: 300;
+	color: #606161;
+	width: 580px;
+	margin-left: 100px;
+}
+
+li {
+	margin-left: 100px;
+	width: 580px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+}
+
+.button1 {
+  @include button-reset;
+  padding: 10px;
+  color: #033048;
+  font-weight: 800;
+  background-color: #f9e42e;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.button2 {
+  @include button-reset;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+  background-color: #033048;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.header {
+	border: none;
+}
+
+.benefits {
+	border: none;
+	padding: 50px 100px;
+	background-color: #f0efef;
+}
+
+.testimonial {
+	border: none;
+	background: url(testimonial_bg.jpg);
+	padding: 50px 100px;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+}
+
+.footer {
+	border: none;
+	padding: 10px 100px;
+	background: #121212;
+	color: white;
+	text-align: center;
+}
+
+.signup {
+	background: #f9e42e;
+	font-family: 'Open Sans';
+	font-size: 24px;
+	color: white;
+	height: 170px;
+	text-align: center;
+  }
+
+
+
+
+
+

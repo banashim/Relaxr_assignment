@@ -1,0 +1,112 @@
+body {
+	color: #043049;
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background: #f0efef;
+}
+
+header {
+	background: #033048;
+	padding: 25px;
+	overflow: hidden;
+
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+header nav {
+	float: right;
+	margin-top: 15px;
+	font-size: 24px;
+}
+
+h1 {
+	color: white;
+	font-weight: 800;
+}
+
+header nav ul li {
+	display: inline-block;
+  	margin: 0 0 0 40px;
+	color: #f9e42e;
+	font-size: 24px;
+}
+
+#sidebar {
+	width: 250px;
+  	float: right;
+  	margin-top: 0px;
+}
+
+
+h2 {
+	font-size: 40px
+	font-weight: 600;
+}
+
+h4 {
+	color: #f9e42e;
+	font-size: 46px;
+	font-weight: 800;
+}
+
+footer {
+	background: #121212;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+#bottom {
+	background: #f9e42e;
+	padding: 30px;
+	text-align: center;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+}
+
+  .button1 {
+  @include button-reset;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+  background-color: #033048;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.copyright {
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.post {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+#posts {
+  width: 700px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+
